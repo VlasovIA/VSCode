@@ -1,3 +1,131 @@
-bode{
-   background: rgb(255, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+   background-color: rgb(227, 241, 241);
+   color: rgb(34, 34, 34);
+   
+   font-size: 16px;
+   font-weight: normal;
+   font-family: 'Roboto', sans-serif;
+   /*
+   font: normal 16px 'Roboto', sans-serif; можно записать в 1 строку
+   */
 }
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+a:active {
+   color: rgb(83, 83, 243);
+}
+a:visited{
+   color: grey;
+}
+
+.avatar {
+width: 200px;
+border-radius: 20px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+.info p {
+   color: rgb(90, 90, 90);
+   margin: 0;
+   font-style: italic;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: none;
+   letter-spacing: 1px;
+}
+.info {
+   margin-bottom: 20px;
+}
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+
+.bg-yelloe {
+   background: rgba(174, 174, 48, 0.375);
+}
+.bg-green {
+   background: rgba(45, 112, 45, 0.421);
+}
+.bg-red {
+   background: rgba(149, 53, 53, 0.415);
+}
+.card {
+   padding: 15px 20px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+}
+.card h2 {
+   margin-bottom: 10px;
+}
+.list {
+   padding: 0 20px;
+}
+.list li {
+   color: rgb(72, 72, 72);
+   margin-bottom: 10px;
+}
+
+.table {
+   width: 100%;
+}
+.table td {
+   padding-bottom: 5px;
+   
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+   color: rgb(97, 99, 99);
+}
+.link-list {
+   list-style: none;
+   padding: 0;
+}
+.link-list li {
+   margin-bottom: 10px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: rgb(79, 79, 79);
+}
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background:transparent ;
+   border-bottom: 1px solid #ccc;
+   color: black;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+.row {
+   display: flex ;
+   margin-bottom: 20px;
+}
+
+.row > .form-group {
+   width: 50%;
+   margin-right: 20px;
+}
+
+
+
+
+
